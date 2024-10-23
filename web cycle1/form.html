@@ -1,0 +1,190 @@
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+	<h1>Student Registration Form</h1> 
+	<table border="1">
+	<form>
+	<tr>
+	<td>FIRST NAME</td>
+	<td><input type="text" name="firstname">(max 30 characters)</td>
+	</tr>
+	<tr>
+	<td>LAST NAME</td>
+	<td><input type="text" name="lastname">(max 30 characters)</td>
+	</tr>
+	<tr>
+	<td>DATE OF BIRTH</td>
+	<td><select name="date" id="dob">
+				<option value="date">Day:</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>
+			
+			<select name="date" id="dob">
+				<option value="month">Month:</option>
+				<option>JAN</option>
+				<option>FEB</option>
+				<option>MAR</option>
+				<option>APR</option>
+				<option>MAY</option>
+				<option>JUN</option>
+				<option>JUL</option>
+				<option>AUG</option>
+				<option>SEP</option>
+				<option>OCT</option>
+				<option>NOV</option>
+				<option>DEC</option>
+			</select>
+			
+			<select name="date" id="dob">
+				<option value="year">Year:</option>
+				<option>1999</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+				<option>2003</option>
+				<option>2004</option>
+				<option>2005</option>
+				<option>2006</option>
+				<option>2007</option>
+				<option>2008</option>
+				<option>2009</option>
+				<option>2010</option>
+			</select>
+	</td>
+	</tr>
+	<tr>
+	<td>EMAIL ID</td>
+	<td><input type="email" name="email"></td>
+	</tr>
+	<tr>
+	<td>MOBILE NUMBER</td>
+	<td><input type="text" name="number">(10 digit number)</td>
+	</tr>
+	<tr>
+	<td>GENDER</td>
+	<td><input type="radio" name="gender">
+		<label>MALE</label>
+		<input type="radio" name="gender">
+		<label>FEMALE</label>
+	</td>
+	</tr>
+	<tr>
+	<td>ADDRESS</td>
+	<td><textarea></textarea></td>
+	</tr>
+	<tr>
+	<td>CITY</td>
+	<td><input type="text" name="city">(max 30 characters)</td>
+	</tr>
+	<tr>
+	<td>COUNTRY</td>
+	<td><input type="text" name="country" placeholder="india"></td>
+	</tr>
+	<tr>
+	<td>HOBBIES</td>
+	<td><input type="checkbox" name="hobbies">
+			<label>Drawing</label>
+			<input type="checkbox" name="hobbies">
+			<label>Singing</label>
+			<input type="checkbox" name="hobbies">
+			<label>Dancing</label>
+			<input type="checkbox" name="hobbies">
+			<label>Sketching</label><br>
+			<input type="checkbox" name="hobbies">
+			<label>Others</label>
+			<input type="text">
+	</td>
+	<tr>
+	<td>QUALIFICATION</td>
+	<td>
+	<table>
+	<tr>
+	<th>Sl.No.Examination</th>
+	<th>Board</th>
+	<th>Percentage</th>
+	<th>Year of Passing</th>
+	</tr>	
+	<tr>
+	<td>1</td>
+	<td>Class X</td>
+	<td><input type="text"></td>
+	<td><input type="text"></td>
+	<td><input type="text"></td>
+	</tr>	
+	<tr>
+	<td>2</td>
+	<td>Class XII</td>
+	<td><input type="text"></td>
+	<td><input type="text"></td>
+	<td><input type="text"></td>
+	</tr>	
+	<tr>
+	<td>3</td>
+	<td>Graduation</td>
+	<td><input type="text"></td>
+	<td><input type="text"></td>
+	<td><input type="text"></td>
+	</tr>
+	<tr>
+	<td>4</td>
+	<td>Masters</td>
+	<td><input type="text"></td>
+	<td><input type="text"></td>
+	<td><input type="text"></td>
+	</tr>		
+	<tr>
+	<td colspan="2"></td>
+	<td>(10 char max)</td>
+	<td>(upto 2 decimal)</td>
+	</tr>	
+	</table>
+	</td>
+	</tr>
+	<tr>
+	<td>COURSES APPLIED FOR</td>
+	<td><input type="radio" name="course">
+		<label>MCA</label>
+		<input type="radio" name="course">
+		<label>M.TECH</label>
+		<input type="radio" name="course">
+		<label>MSC</label>
+		<input type="radio" name="course">
+		<label>PHD</label>
+	</td>
+	</tr>
+	<tr>
+	<td>TYPE YOUR PASSWORD</td>
+	<td><input type="password" ></td>
+	</tr>
+	<tr>
+	<td>UPLOAD YOUR PHOTO</td>
+	<td><input type="file" name="photo"></td>
+	</tr>
+	<tr>
+	<td>DATE OF TC</td>
+	<td><input type="date" name="date"></td>
+	</tr>
+	<tr>
+	<td colspan="2">
+	<center><input type="submit" value="Submit">
+	<input type="submit" value="Reset"></center>
+	
+	</td>
+	
+	</tr>
+	</form>
+	</table>
+	
+</body>
+</html>
